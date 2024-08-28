@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mainproject"
+version = "0.1.0"
+description = "ader 클론(루루)"
+authors = ["bavid2113 <jollyholly2113@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "^5.1"
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+ruff = "^0.6.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
